@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda</title>
+
+    <!--Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body>
+    
+
+    <div class="wrapper">
+
+     <di    v id="search-container">
+
+      <input type="search" id = "search-input" placeholder="Buscar Producto"/>
+       
+      <button id = "search">Buscar</button>
+  
+     </div>
+
+     <div id="buttons">
+        <button class="button-value" onclick="filtrarProductos('all')">All</button>
+        <button class="button-value" onclick="filtrarProductos('Luffy')">Luffy</button>
+        <button class="button-value" onclick="filtrarProductos('Zoro')">Zoro</button>
+        <button class="button-value" onclick="filtrarProductos('Sanji')">Sanji</button>
+        <button class="button-value" onclick="filtrarProductos('Ace')">Portags D'ace</button>
+        <button class="button-value" onclick="filtrarProductos('NicoRobin')">Nico Robin</button>
+        <button class="button-value" onclick="filtrarProductos('Nami')">Nami</button>
+        <button class="button-value" onclick="filtrarProductos('Usopp')">Usopp</button>
+        <button class="button-value" onclick="filtrarProductos('Chopper')">Chopper</button>
+     </div>
+      <div id = "products"></div>
+    </div>
+
+
+    <!--Scripts-->
+    <script src="app.js"></script>
+</body>
+</html>
