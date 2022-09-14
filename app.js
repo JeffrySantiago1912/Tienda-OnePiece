@@ -89,10 +89,17 @@ let personajes = {
         },
 
         {
-            nombreProducto: "Chopper ",
+            nombreProducto: "Chopper",
             categoria: "Chopper",
             precio: "95",
             imagenSrc: "estilos/images/chooper1.jpg",
+        },
+
+        {
+            nombreProducto: "Gol D' Roger",
+            categoria: "Roger",
+            precio: "200",
+            imagenSrc: "estilos/images/rogerr.webp",
         },
 
     ],
